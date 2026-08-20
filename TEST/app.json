@@ -1,0 +1,29 @@
+{
+  "id": "8199188f-22ed-487f-885e-b03482b65042",
+  "name": "Supply Chain Exception Agent Tests",
+  "publisher": "YOUR PUBLISHER NAME",
+  "brief": "Automated tests for Supply Chain Exception Agent.",
+  "description": "Self-contained SaaS/CDX-compatible automated AL tests for Supply Chain Exception Agent. No Tests-TestLibraries dependency.",
+  "version": "1.0.0.0",
+  "platform": "28.0.0.0",
+  "application": "28.1.0.0",
+  "target": "Cloud",
+  "dependencies": [
+    {
+      "id": "4436d2d5-745b-4bf2-89c7-52fa5a5a1191",
+      "name": "Supply Chain Exception Agent",
+      "publisher": "YOUR PUBLISHER NAME",
+      "version": "1.0.0.0"
+    }
+  ],
+  "idRanges": [
+    {
+      "from": 50400,
+      "to": 50499
+    }
+  ],
+  "features": [
+    "NoImplicitWith"
+  ],
+  "runtime": "17.0"
+}
