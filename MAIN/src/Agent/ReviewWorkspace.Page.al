@@ -45,6 +45,7 @@ page 50304 "SCAReviewWorkspace"
                 ApplicationArea = All;
                 Caption = 'Run Full Scan';
                 Image = AnalysisView;
+                ToolTip = 'Run a deterministic supply chain exception scan and show the latest results.';
                 trigger OnAction()
                 var
                     Engine: Codeunit "SCAExceptionEngine";
@@ -60,6 +61,7 @@ page 50304 "SCAReviewWorkspace"
                 Caption = 'Open Demand Order';
                 Enabled = Rec."Demand Document No." <> '';
                 Image = Document;
+                ToolTip = 'Open the sales order that generated the selected demand.';
                 trigger OnAction()
                 var
                     SalesHeader: Record "Sales Header";
@@ -74,6 +76,7 @@ page 50304 "SCAReviewWorkspace"
                 Caption = 'Open Purchase Order';
                 Enabled = Rec."Source Purchase Order No." <> '';
                 Image = Document;
+                ToolTip = 'Open the purchase order associated with the selected inbound supply.';
                 trigger OnAction()
                 var
                     PurchaseHeader: Record "Purchase Header";

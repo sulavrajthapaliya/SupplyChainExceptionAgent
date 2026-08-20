@@ -47,6 +47,7 @@ page 50301 "SCAAnalyses"
                 ApplicationArea = All;
                 Caption = 'Run Full Scan';
                 Image = AnalysisView;
+                ToolTip = 'Run a deterministic supply chain exception scan.';
                 trigger OnAction()
                 var
                     Engine: Codeunit "SCAExceptionEngine";
@@ -59,11 +60,12 @@ page 50301 "SCAAnalyses"
                 ApplicationArea = All;
                 Caption = 'Send to Agent';
                 Image = Task;
+                ToolTip = 'Create an agent task to review the selected supply chain exception analysis.';
                 trigger OnAction()
                 var
                     AgentMgt: Codeunit "SCAAgentMgt";
                     TaskId: BigInteger;
-                    TaskCreatedMsg: Label 'Agent task %1 was created.';
+                    TaskCreatedMsg: Label 'Agent task %1 was created.', Comment = '%1 is the task ID.';
                 begin
                     TaskId := AgentMgt.CreateAnalysisReviewTask(Rec);
                     Message(TaskCreatedMsg, TaskId);

@@ -90,7 +90,7 @@ page 50300 "SCASetup"
                 var
                     AgentMgt: Codeunit "SCAAgentMgt";
                     TaskId: BigInteger;
-                    TaskCreatedMsg: Label 'Agent task %1 was created.';
+                    TaskCreatedMsg: Label 'Agent task %1 was created.', Comment = '%1 is the task ID.';
                 begin
                     TaskId := AgentMgt.RunScanAndCreateTask();
                     Message(TaskCreatedMsg, TaskId);

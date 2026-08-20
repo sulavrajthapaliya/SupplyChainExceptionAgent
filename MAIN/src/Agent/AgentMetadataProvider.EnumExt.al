@@ -4,7 +4,7 @@ using System.Agents;
 
 enumextension 50301 "SCAAgentMetadataProvider" extends "Agent Metadata Provider"
 {
-    value(50300; "SCASupplyChainExceptions")
+    value(50300; "SCASupplyChainExceptions_SCA")
     {
         Caption = 'Supply Chain Exception Agent';
         Implementation =

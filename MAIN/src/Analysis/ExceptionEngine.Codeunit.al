@@ -695,7 +695,7 @@ codeunit 50301 "SCAExceptionEngine"
         ExceptionLine.SetRange("Location Code", CurrentExceptionLine."Location Code");
         ExceptionLine.SetRange("Variant Code", CurrentExceptionLine."Variant Code");
         ExceptionLine.SetFilter("Line No.", '<>%1', CurrentExceptionLine."Line No.");
-
+        PeakShortage := 0;
         if ExceptionLine.FindSet() then
             repeat
                 if ExceptionLine."Shortage Qty. (Base)" > PeakShortage then

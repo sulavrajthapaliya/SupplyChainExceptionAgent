@@ -10,7 +10,7 @@ page 50302 "SCAAnalysisCard"
     Editable = false;
     PageType = Card;
     SourceTable = "SCAAnalysisHeader";
-
+    UsageCategory = Administration;
     layout
     {
         area(Content)
@@ -57,11 +57,12 @@ page 50302 "SCAAnalysisCard"
                 ApplicationArea = All;
                 Caption = 'Send to Agent';
                 Image = Task;
+                ToolTip = 'Create an agent task to review this supply chain exception analysis.';
                 trigger OnAction()
                 var
                     AgentMgt: Codeunit "SCAAgentMgt";
                     TaskId: BigInteger;
-                    TaskCreatedMsg: Label 'Agent task %1 was created.';
+                    TaskCreatedMsg: Label 'Agent task %1 was created.', Comment = '%1 is the task ID.';
                 begin
                     TaskId := AgentMgt.CreateAnalysisReviewTask(Rec);
                     Message(TaskCreatedMsg, TaskId);
@@ -72,6 +73,7 @@ page 50302 "SCAAnalysisCard"
                 ApplicationArea = All;
                 Caption = 'Mark Reviewed';
                 Image = Approve;
+                ToolTip = 'Mark this supply chain exception analysis as reviewed.';
                 trigger OnAction()
                 var
                     Header: Record "SCAAnalysisHeader";
@@ -89,6 +91,7 @@ page 50302 "SCAAnalysisCard"
                 Caption = 'Open Sales Order';
                 Enabled = Rec."Source Document No." <> '';
                 Image = Document;
+                ToolTip = 'Open the sales order associated with this supply chain exception analysis.';
                 trigger OnAction()
                 var
                     SalesHeader: Record "Sales Header";

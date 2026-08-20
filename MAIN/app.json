@@ -4,13 +4,14 @@
   "publisher": "YOUR PUBLISHER NAME",
   "brief": "Detect and explain supply chain exceptions before they become service failures.",
   "description": "Supply Chain Exception Agent scans open sales demand and purchase supply in Business Central, detects shortages, overdue demand, late inbound supply and overdue purchase receipts, scores risk deterministically, and integrates with the native Business Central Agent SDK for explain-and-recommend workflows.",
-  "version": "1.0.0.0",
+  "version": "27.0.0.0",
   "privacyStatement": "https://YOUR-DOMAIN.example/privacy",
   "EULA": "https://YOUR-DOMAIN.example/eula",
   "help": "https://YOUR-DOMAIN.example/supply-chain-exception-agent/help",
   "url": "https://YOUR-DOMAIN.example/supply-chain-exception-agent",
   "contextSensitiveHelpUrl": "https://YOUR-DOMAIN.example/supply-chain-exception-agent/help/",
   "logo": "Resources/Logo.png",
+  "applicationInsightsConnectionString": "",
   "platform": "28.0.0.0",
   "application": "28.1.0.0",
   "target": "Cloud",
@@ -27,5 +28,10 @@
   "resourceFolders": [
     "Resources"
   ],
-  "runtime": "17.0"
+  "runtime": "17.0",
+  "resourceExposurePolicy": {
+    "allowDebugging": false,
+    "allowDownloadingSource": false,
+    "includeSourceInSymbolFile": false
+  }
 }

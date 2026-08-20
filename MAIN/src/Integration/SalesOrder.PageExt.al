@@ -8,12 +8,12 @@ pageextension 50300 "SCASalesOrder" extends "Sales Order"
     {
         addlast(Processing)
         {
-            group(SCASupplyChainExceptions)
+            group(SCASupplyChainExceptions_SCA)
             {
                 Caption = 'Supply Chain Exceptions';
                 Image = AnalysisView;
 
-                action(SCAAnalyzeSupplyRisk)
+                action(SCAAnalyzeSupplyRisk_SCA)
                 {
                     ApplicationArea = All;
                     Caption = 'Analyze Supply Risk';

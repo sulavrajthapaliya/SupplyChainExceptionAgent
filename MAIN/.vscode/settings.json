@@ -1,8 +1,4 @@
 {
-  "al.enableCodeAnalysis": true,
-  "al.codeAnalyzers": [
-    "${CodeCop}",
-    "${UICop}",
-    "${AppSourceCop}"
-  ]
+  "CRS.ObjectNamePrefix": "SCA",
+  "CRS.RemovePrefixFromFilename": true
 }

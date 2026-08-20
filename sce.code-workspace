@@ -25,6 +25,7 @@
     "CRS.RemoveUnderscoreFromFilename": true,
     "al.packageCachePath": ".alpackages",
     "al.enableCodeAnalysis": true,
+    "al.ruleSetPath": "./al.ruleset.json",
     "al.codeAnalyzers": [
       "${CodeCop}",
       "${PerTenantExtensionCop}"

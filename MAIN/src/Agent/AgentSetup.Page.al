@@ -99,7 +99,7 @@ page 50305 "SCAAgentSetup"
             AgentSetup.GetSetupRecord(
                 AgentSetupBuffer,
                 Rec."User Security ID",
-                Enum::"Agent Metadata Provider"::"SCASupplyChainExceptions",
+                Enum::"Agent Metadata Provider"::SCASupplyChainExceptions_SCA,
                 'SUPPLYCHAIN',
                 'Supply Chain Exception Agent',
                 'Reviews shortages, overdue demand, late inbound supply and overdue purchase receipts using deterministic Business Central analysis.');

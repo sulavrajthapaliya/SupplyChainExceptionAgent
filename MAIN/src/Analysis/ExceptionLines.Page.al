@@ -58,6 +58,7 @@ page 50303 "SCAExceptionLines"
                 Caption = 'Open Demand Order';
                 Enabled = Rec."Demand Document No." <> '';
                 Image = Document;
+                ToolTip = 'Open the sales order that generated the selected demand.';
                 trigger OnAction()
                 var
                     SalesHeader: Record "Sales Header";
@@ -72,6 +73,7 @@ page 50303 "SCAExceptionLines"
                 Caption = 'Open Purchase Order';
                 Enabled = Rec."Source Purchase Order No." <> '';
                 Image = Document;
+                ToolTip = 'Open the purchase order associated with the selected inbound supply.';
                 trigger OnAction()
                 var
                     PurchaseHeader: Record "Purchase Header";

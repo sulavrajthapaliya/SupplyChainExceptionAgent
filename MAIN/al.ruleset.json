@@ -1,0 +1,10 @@
+{
+    "name": "Project Rules",
+    "rules": [
+        {
+            "id": "AA0215",
+            "action": "None",
+            "justification": "File names do not include the object affix."
+        }
+    ]
+}

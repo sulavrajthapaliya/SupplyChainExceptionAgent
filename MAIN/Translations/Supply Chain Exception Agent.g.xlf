@@ -553,15 +553,15 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table SCASetup - Field Include Open Sales Orders - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Table 3286032562 - Field 1158335809 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Table 3286032562 - Field 3113776490 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies whether released purchase orders are included as inbound supply in the analysis.</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Table SCASetup - Field Include Released Purchase Orders - Property ToolTip</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table SCASetup - Field Include Released PO - Property ToolTip</note>
         </trans-unit>
-        <trans-unit id="Table 3286032562 - Field 1158335809 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Table 3286032562 - Field 3113776490 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Include Released Purchase Orders</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Table SCASetup - Field Include Released Purchase Orders - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table SCASetup - Field Include Released PO - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 3286032562 - Field 2669195672 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies whether released sales orders are included as demand in the analysis.</source>
@@ -783,10 +783,20 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page SCAAnalyses - Property AdditionalSearchTerms</note>
         </trans-unit>
+        <trans-unit id="Page 1329408401 - Action 688345239 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Run a deterministic supply chain exception scan.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SCAAnalyses - Action RunFullScan - Property ToolTip</note>
+        </trans-unit>
         <trans-unit id="Page 1329408401 - Action 688345239 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Run Full Scan</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page SCAAnalyses - Action RunFullScan - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1329408401 - Action 3090191146 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Create an agent task to review the selected supply chain exception analysis.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SCAAnalyses - Action SendToAgent - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 1329408401 - Action 3090191146 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Send to Agent</source>
@@ -795,7 +805,7 @@
         </trans-unit>
         <trans-unit id="Page 1329408401 - Action 3090191146 - Method 1377591017 - NamedType 1098216320" size-unit="char" translate="yes" xml:space="preserve">
           <source>Agent task %1 was created.</source>
-          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Developer" annotates="general" priority="2">%1 is the task ID.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Page SCAAnalyses - Action SendToAgent - Method OnAction - NamedType TaskCreatedMsg</note>
         </trans-unit>
         <trans-unit id="Page 3585852001 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
@@ -808,15 +818,30 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page SCAAnalysisCard - Control Summary - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Page 3585852001 - Action 3993491650 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Mark this supply chain exception analysis as reviewed.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SCAAnalysisCard - Action MarkReviewed - Property ToolTip</note>
+        </trans-unit>
         <trans-unit id="Page 3585852001 - Action 3993491650 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Mark Reviewed</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page SCAAnalysisCard - Action MarkReviewed - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Page 3585852001 - Action 2967517294 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Open the sales order associated with this supply chain exception analysis.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SCAAnalysisCard - Action OpenSalesOrder - Property ToolTip</note>
+        </trans-unit>
         <trans-unit id="Page 3585852001 - Action 2967517294 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Open Sales Order</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page SCAAnalysisCard - Action OpenSalesOrder - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3585852001 - Action 3090191146 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Create an agent task to review this supply chain exception analysis.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SCAAnalysisCard - Action SendToAgent - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 3585852001 - Action 3090191146 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Send to Agent</source>
@@ -825,7 +850,7 @@
         </trans-unit>
         <trans-unit id="Page 3585852001 - Action 3090191146 - Method 1377591017 - NamedType 1098216320" size-unit="char" translate="yes" xml:space="preserve">
           <source>Agent task %1 was created.</source>
-          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Developer" annotates="general" priority="2">%1 is the task ID.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Page SCAAnalysisCard - Action SendToAgent - Method OnAction - NamedType TaskCreatedMsg</note>
         </trans-unit>
         <trans-unit id="Page 17329917 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
@@ -833,10 +858,20 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page SCAExceptionLines - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Page 17329917 - Action 3290777231 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Open the sales order that generated the selected demand.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SCAExceptionLines - Action OpenDemandOrder - Property ToolTip</note>
+        </trans-unit>
         <trans-unit id="Page 17329917 - Action 3290777231 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Open Demand Order</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page SCAExceptionLines - Action OpenDemandOrder - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 17329917 - Action 1303672059 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Open the purchase order associated with the selected inbound supply.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SCAExceptionLines - Action OpenPurchaseOrder - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 17329917 - Action 1303672059 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Open Purchase Order</source>
@@ -853,15 +888,30 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page SCAReviewWorkspace - Property AdditionalSearchTerms</note>
         </trans-unit>
+        <trans-unit id="Page 3484850170 - Action 3290777231 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Open the sales order that generated the selected demand.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SCAReviewWorkspace - Action OpenDemandOrder - Property ToolTip</note>
+        </trans-unit>
         <trans-unit id="Page 3484850170 - Action 3290777231 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Open Demand Order</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page SCAReviewWorkspace - Action OpenDemandOrder - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Page 3484850170 - Action 1303672059 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Open the purchase order associated with the selected inbound supply.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SCAReviewWorkspace - Action OpenPurchaseOrder - Property ToolTip</note>
+        </trans-unit>
         <trans-unit id="Page 3484850170 - Action 1303672059 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Open Purchase Order</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page SCAReviewWorkspace - Action OpenPurchaseOrder - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3484850170 - Action 688345239 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Run a deterministic supply chain exception scan and show the latest results.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SCAReviewWorkspace - Action RunFullScan - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 3484850170 - Action 688345239 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Run Full Scan</source>
@@ -950,23 +1000,23 @@
         </trans-unit>
         <trans-unit id="Page 3286032562 - Action 2905319805 - Method 1377591017 - NamedType 1098216320" size-unit="char" translate="yes" xml:space="preserve">
           <source>Agent task %1 was created.</source>
-          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Developer" annotates="general" priority="2">%1 is the task ID.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Page SCASetup - Action RunScanAndSendToAgent - Method OnAction - NamedType TaskCreatedMsg</note>
         </trans-unit>
-        <trans-unit id="PageExtension 2457055841 - Action 2190168005 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1673401186">
+        <trans-unit id="PageExtension 2457055841 - Action 4027555719 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1673401186">
           <source>Supply Chain Exceptions</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">PageExtension SCASalesOrder - Action SCASupplyChainExceptions - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension SCASalesOrder - Action SCASupplyChainExceptions_SCA - Property Caption</note>
         </trans-unit>
-        <trans-unit id="PageExtension 2457055841 - Action 1598026359 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1673401186">
+        <trans-unit id="PageExtension 2457055841 - Action 1928705813 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1673401186">
           <source>Analyze inventory and inbound purchase supply against this sales order and open the deterministic exception analysis.</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">PageExtension SCASalesOrder - Action SCAAnalyzeSupplyRisk - Property ToolTip</note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension SCASalesOrder - Action SCAAnalyzeSupplyRisk_SCA - Property ToolTip</note>
         </trans-unit>
-        <trans-unit id="PageExtension 2457055841 - Action 1598026359 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1673401186">
+        <trans-unit id="PageExtension 2457055841 - Action 1928705813 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1673401186">
           <source>Analyze Supply Risk</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">PageExtension SCASalesOrder - Action SCAAnalyzeSupplyRisk - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension SCASalesOrder - Action SCAAnalyzeSupplyRisk_SCA - Property Caption</note>
         </trans-unit>
         <trans-unit id="Profile 80025140 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Supply Chain Exception Agent</source>
@@ -1068,10 +1118,10 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Enum SCAScanScope - EnumValue Sales Order - Property Caption</note>
         </trans-unit>
-        <trans-unit id="EnumExtension 188092424 - EnumValue 2190168005 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Enum 3596146799">
+        <trans-unit id="EnumExtension 188092424 - EnumValue 4027555719 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Enum 3596146799">
           <source>Supply Chain Exception Agent</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">EnumExtension SCAAgentMetadataProvider - EnumValue SCASupplyChainExceptions - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">EnumExtension SCAAgentMetadataProvider - EnumValue SCASupplyChainExceptions_SCA - Property Caption</note>
         </trans-unit>
         <trans-unit id="EnumExtension 3194192797 - EnumValue 2190168005 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Enum 3058546390">
           <source>Supply Chain Exception Agent</source>
