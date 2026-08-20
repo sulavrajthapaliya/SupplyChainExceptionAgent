@@ -19,6 +19,9 @@ codeunit 50304 "SCAAgentMgt"
         NoAgentErr: Label 'Supply Chain Exception Agent is not configured. Open Copilot & agent capabilities and configure the agent first.';
         MessageText: Text;
     begin
+        if (AnalysisHeader."Agent Task ID" <> 0) and AgentTask.Get(AnalysisHeader."Agent Task ID") then
+            exit(AgentTask.ID);
+
         if not AgentInstance.FindFirst() then
             Error(NoAgentErr);
 

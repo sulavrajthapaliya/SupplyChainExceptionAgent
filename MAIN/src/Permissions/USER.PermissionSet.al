@@ -6,6 +6,7 @@ using Microsoft.Purchases.Document;
 using Microsoft.Purchases.Vendor;
 using Microsoft.Sales.Customer;
 using Microsoft.Sales.Document;
+using System.Agents;
 
 permissionset 50300 "SCAUSER"
 {
@@ -19,13 +20,15 @@ permissionset 50300 "SCAUSER"
         table "SCAExceptionLine" = X,
         tabledata "SCAExceptionLine" = RIM,
         tabledata "SCASetup" = R,
+        tabledata "Agent Task" = R,
         codeunit "SCAAgentMgt" = X,
         codeunit "SCAExceptionEngine" = X,
         codeunit "SCASetupMgt" = X,
         page "SCAAnalyses" = X,
         page "SCAAnalysisCard" = X,
         page "SCAExceptionLines" = X,
-        page "SCAReviewWorkspace" = X;
+        page "SCAReviewWorkspace" = X,
+        page "SCASalesOrderRiskFactBox" = X;
 }
 
 permissionset 50301 "SCAADMIN"

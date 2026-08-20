@@ -62,10 +62,10 @@ page 50302 "SCAAnalysisCard"
                 var
                     AgentMgt: Codeunit "SCAAgentMgt";
                     TaskId: BigInteger;
-                    TaskCreatedMsg: Label 'Agent task %1 was created.', Comment = '%1 is the task ID.';
+                    TaskAvailableMsg: Label 'Agent task %1 is available.', Comment = '%1 is the task ID.';
                 begin
                     TaskId := AgentMgt.CreateAnalysisReviewTask(Rec);
-                    Message(TaskCreatedMsg, TaskId);
+                    Message(TaskAvailableMsg, TaskId);
                 end;
             }
             action(MarkReviewed)
