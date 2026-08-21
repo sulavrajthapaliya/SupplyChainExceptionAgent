@@ -803,10 +803,10 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page SCAAnalyses - Action SendToAgent - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Page 1329408401 - Action 3090191146 - Method 1377591017 - NamedType 1098216320" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Agent task %1 was created.</source>
+        <trans-unit id="Page 1329408401 - Action 3090191146 - Method 1377591017 - NamedType 2140259415" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Agent task %1 is available.</source>
           <note from="Developer" annotates="general" priority="2">%1 is the task ID.</note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page SCAAnalyses - Action SendToAgent - Method OnAction - NamedType TaskCreatedMsg</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SCAAnalyses - Action SendToAgent - Method OnAction - NamedType TaskAvailableMsg</note>
         </trans-unit>
         <trans-unit id="Page 3585852001 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Supply Chain Exception Analysis</source>
@@ -848,10 +848,10 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page SCAAnalysisCard - Action SendToAgent - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Page 3585852001 - Action 3090191146 - Method 1377591017 - NamedType 1098216320" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Agent task %1 was created.</source>
+        <trans-unit id="Page 3585852001 - Action 3090191146 - Method 1377591017 - NamedType 2140259415" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Agent task %1 is available.</source>
           <note from="Developer" annotates="general" priority="2">%1 is the task ID.</note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page SCAAnalysisCard - Action SendToAgent - Method OnAction - NamedType TaskCreatedMsg</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SCAAnalysisCard - Action SendToAgent - Method OnAction - NamedType TaskAvailableMsg</note>
         </trans-unit>
         <trans-unit id="Page 17329917 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Exceptions</source>
@@ -917,6 +917,111 @@
           <source>Run Full Scan</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page SCAReviewWorkspace - Action RunFullScan - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2650404131 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Supply Chain Risk</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SCASalesOrderRiskFactBox - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2650404131 - Control 524687602 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Agent task</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SCASalesOrderRiskFactBox - Control AgentTaskDetails - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2650404131 - Control 2619710435 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the agent task created for the latest analysis. Select the value to open the task.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SCASalesOrderRiskFactBox - Control AgentTaskId - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2650404131 - Control 2619710435 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Task ID</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SCASalesOrderRiskFactBox - Control AgentTaskId - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2650404131 - Control 1575987325 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies whether the agent task requires user attention.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SCASalesOrderRiskFactBox - Control AgentTaskNeedsAttention - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2650404131 - Control 1575987325 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Needs Attention</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SCASalesOrderRiskFactBox - Control AgentTaskNeedsAttention - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2650404131 - Control 2480897828 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the current status of the agent task.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SCASalesOrderRiskFactBox - Control AgentTaskStatus - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2650404131 - Control 2480897828 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Status</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SCASalesOrderRiskFactBox - Control AgentTaskStatus - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2650404131 - Control 1746372166 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Latest analysis</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SCASalesOrderRiskFactBox - Control Analysis - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2650404131 - Control 4180177841 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the latest supply chain exception analysis for this sales order. Select the value to open the analysis.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SCASalesOrderRiskFactBox - Control AnalysisEntryNo - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2650404131 - Control 4180177841 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Analysis</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SCASalesOrderRiskFactBox - Control AnalysisEntryNo - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2650404131 - Control 1162728383 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies when the latest analysis was performed.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SCASalesOrderRiskFactBox - Control AnalyzedAt - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2650404131 - Control 1162728383 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Analyzed At</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SCASalesOrderRiskFactBox - Control AnalyzedAt - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2650404131 - Control 3802675300 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the number of critical-risk exceptions found in the latest analysis.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SCASalesOrderRiskFactBox - Control CriticalCount - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2650404131 - Control 3802675300 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Critical</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SCASalesOrderRiskFactBox - Control CriticalCount - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2650404131 - Control 1816897376 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the number of exceptions found in the latest analysis.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SCASalesOrderRiskFactBox - Control ExceptionCount - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2650404131 - Control 1816897376 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Exceptions</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SCASalesOrderRiskFactBox - Control ExceptionCount - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2650404131 - Control 3092572615 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the number of high-risk exceptions found in the latest analysis.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SCASalesOrderRiskFactBox - Control HighCount - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2650404131 - Control 3092572615 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>High</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SCASalesOrderRiskFactBox - Control HighCount - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2650404131 - Control 3833998627 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the highest risk level in the latest analysis.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SCASalesOrderRiskFactBox - Control HighestRiskLevel - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2650404131 - Control 3833998627 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Highest Risk</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SCASalesOrderRiskFactBox - Control HighestRiskLevel - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 3286032562 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Supply Chain Exception Setup</source>
@@ -1009,7 +1114,7 @@
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension SCASalesOrder - Action SCASupplyChainExceptions_SCA - Property Caption</note>
         </trans-unit>
         <trans-unit id="PageExtension 2457055841 - Action 1928705813 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1673401186">
-          <source>Analyze inventory and inbound purchase supply against this sales order and open the deterministic exception analysis.</source>
+          <source>Analyze inventory and inbound purchase supply, create an agent review task, and update the Supply Chain Risk FactBox.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension SCASalesOrder - Action SCAAnalyzeSupplyRisk_SCA - Property ToolTip</note>
         </trans-unit>
@@ -1017,6 +1122,16 @@
           <source>Analyze Supply Risk</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension SCASalesOrder - Action SCAAnalyzeSupplyRisk_SCA - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2457055841 - Action 1928705813 - Method 1377591017 - NamedType 1098216320" size-unit="char" translate="yes" xml:space="preserve" al-object-target="PageExtension 2457055841">
+          <source>Supply risk analysis %1 created agent task %2 for sales order %3.</source>
+          <note from="Developer" annotates="general" priority="2">%1 = analysis entry number, %2 = agent task ID, %3 = sales order number</note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension SCASalesOrder - Action SCAAnalyzeSupplyRisk_SCA - Method OnAction - NamedType TaskCreatedMsg</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2457055841 - Control 2782900670 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1673401186">
+          <source>Supply Chain Risk</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension SCASalesOrder - Control SCASupplyRiskFactBox_SCA - Property Caption</note>
         </trans-unit>
         <trans-unit id="Profile 80025140 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Supply Chain Exception Agent</source>

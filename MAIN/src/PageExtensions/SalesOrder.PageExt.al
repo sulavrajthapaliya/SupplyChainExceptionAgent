@@ -1,6 +1,7 @@
 namespace SupplyChain.ExceptionAgent;
 
 using Microsoft.Sales.Document;
+using System.Agents;
 
 pageextension 50300 "SCASalesOrder" extends "Sales Order"
 {
@@ -39,9 +40,10 @@ pageextension 50300 "SCASalesOrder" extends "Sales Order"
                         AnalysisHeader: Record "SCAAnalysisHeader";
                         AgentMgt: Codeunit "SCAAgentMgt";
                         Engine: Codeunit "SCAExceptionEngine";
+                        s: page "Agent Card";
                         TaskCreatedNotification: Notification;
-                        AnalysisEntryNo: Integer;
                         TaskId: BigInteger;
+                        AnalysisEntryNo: Integer;
                         TaskCreatedMsg: Label 'Supply risk analysis %1 created agent task %2 for sales order %3.', Comment = '%1 = analysis entry number, %2 = agent task ID, %3 = sales order number';
                     begin
                         AnalysisEntryNo := Engine.AnalyzeSalesOrder(Rec, false);
