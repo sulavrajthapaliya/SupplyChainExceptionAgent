@@ -2,7 +2,7 @@
   "version": "0.2.0",
   "configurations": [
     {
-      "name": "BC SaaS Sandbox",
+      "name": "BC SaaS dev Sandbox",
       "type": "al",
       "request": "launch",
       "environmentType": "Sandbox",

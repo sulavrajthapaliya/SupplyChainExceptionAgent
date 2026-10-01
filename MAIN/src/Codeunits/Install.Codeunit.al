@@ -25,7 +25,7 @@ codeunit 50305 "SCAInstall"
     local procedure RegisterCapability()
     var
         CopilotCapability: Codeunit "Copilot Capability";
-        LearnMoreUrlLbl: Label 'https://YOUR-DOMAIN.example/supply-chain-exception-agent', Locked = true;
+        LearnMoreUrlLbl: Label 'https://sulavrajthapaliya.com/supply-chain-exception-agent', Locked = true;
     begin
         if not CopilotCapability.IsCapabilityRegistered(Enum::"Copilot Capability"::"SCASupplyChainExceptions") then
             CopilotCapability.RegisterCapability(

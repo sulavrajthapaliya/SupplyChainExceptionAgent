@@ -1,7 +1,7 @@
 {
   "id": "8199188f-22ed-487f-885e-b03482b65042",
   "name": "Supply Chain Exception Agent Tests",
-  "publisher": "YOUR PUBLISHER NAME",
+  "publisher": "SRT",
   "brief": "Automated tests for Supply Chain Exception Agent.",
   "description": "Self-contained SaaS/CDX-compatible automated AL tests for Supply Chain Exception Agent. No Tests-TestLibraries dependency.",
   "version": "1.0.0.0",
